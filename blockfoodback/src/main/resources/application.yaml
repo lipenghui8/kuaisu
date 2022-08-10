@@ -1,0 +1,23 @@
+# 服务端口
+server:
+  port: 8080
+
+#web3j的测试地址：ganache
+web3j:
+  client-address: http://localhost:8545
+
+spring:
+  application:
+    name: blockfoodback #应用名字
+
+  #数据库配置
+  data:
+    mongodb:
+      uri: mongodb://wuhu:123456@localhost:27017/blockdb?authSource=admin
+
+  #发送邮件配置
+  mail:
+    default-encoding: utf-8
+    host: smtp.qq.com
+    username: 2312306353@qq.com
+    password: xomzoifgdxpydjih
